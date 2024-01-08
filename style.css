@@ -15,16 +15,49 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
     
 }
 .logo{
-
+margin-top: 20vh;
+padding: 1rem;
+background-color: rgba(0, 0, 0, 0.8);
+color: rgb(185, 161, 162);
+font-size: x-large;
+font-weight: 900;
+border-radius: 2px;
 }
 .left>p{
     vertical-align: bottom;
+    margin: 1rem;
 }
 
 .right{
     padding: 15px;
+    background-color: rgba(61, 35, 35, 0.368);
+    width: 60vmax;
+}
+.top{
+    padding: 2rem;
+    
+    
+}
+.top>p{
+    font-weight: bold;
+    margin-top: .8rem;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.right>span{
+padding-bottom: 1rem;
+font-weight: 600;
+}
+
+button{
+    box-sizing: 2rem;
 }
