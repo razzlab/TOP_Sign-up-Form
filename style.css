@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+
+}
+
+.left{
+    background-image: url(nick-andreka-XJWm6jERxcc-unsplash.jpg);
+    height: 100vh;
+    width: 40vmax;
+    color: azure;
+    background-size:cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.logo{
+
+}
+.left>p{
+    vertical-align: bottom;
+}
+
+.right{
+    padding: 15px;
+}
