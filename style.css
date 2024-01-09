@@ -5,6 +5,10 @@ body{
     display: flex;
 
 }
+.right>span{
+    font-size: x-large;
+    font-weight: 300;
+}
 
 .left{
     background-image: url(nick-andreka-XJWm6jERxcc-unsplash.jpg);
@@ -51,13 +55,38 @@ border-radius: 2px;
 .input{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    background:rgb(185, 161, 162);
+    padding: 1rem;
+    margin: 0px;
 
 }
+.input>div>input{
+    margin-top: .5rem;
+    background: transparent;
+    border: 1px solid rgb(216, 206, 188);
+    border-radius: 5px;
+    height: 1.3rem;
+    
+}
+
+
 .right>span{
 padding-bottom: 1rem;
 font-weight: 600;
 }
 
 button{
-    box-sizing: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    background: #c28989;
+    margin-bottom: .6rem;
+}
+.bottom{
+    margin-top: 2rem;
+
+}
+.bottom>span{
+    padding-top: 1rem;
+    
 }
